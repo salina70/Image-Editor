@@ -56,3 +56,22 @@ section{
     display: flex;
 background-color: rgb(42, 41, 41);
 }
+input{
+    width: 30rem;
+}
+.filters{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    
+}
+p{
+    margin-bottom: .3rem;
+    font-size: 1.1rem;
+}
+.filter{
+    margin-top:.5rem;
+    
+}
+canvas{
+    display: none;
+}

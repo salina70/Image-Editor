@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -26,10 +26,10 @@
               >Choose Image
               <input hidden type="file" id="image-input" />
             </label>
-            <button style="background-color: rgb(23, 176, 23)" class="btn">
+            <button id="reset" style="background-color: rgb(23, 176, 23)" class="btn">
               Reset
             </button>
-            <button style="background-color: rgb(215, 28, 28)" class="btn">
+            <button id="dn" style="background-color: rgb(215, 28, 28)" class="btn">
               Download
             </button>
           </div>
@@ -39,12 +39,16 @@
               <i id="icon" class="fa-solid fa-image"><h2 style="font-size: 1rem; margin-top: 1rem; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ">No file choosen</h2></i>
               
             </div>
+              <canvas height="400" width="400" id="image-canvas"></canvas>
           </div>
 
         </div>
         <div class="right">
             <h2 style="margin: 1rem 0 0 1rem; font-size: 1.8rem;">Filters</h2>
+        <div class="filters">
+         
         </div>
+          </div>
       </section>
     </main>
 
